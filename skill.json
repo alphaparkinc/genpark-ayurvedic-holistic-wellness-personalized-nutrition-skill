@@ -1,0 +1,38 @@
+{
+  "name": "genpark-ayurvedic-holistic-wellness-personalized-nutrition-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Modern Ayurvedic holistic wellness consultations, dosha constitution profiler, and AYUSH-certified personalized plant nutrition regimens.",
+  "author": "genpark",
+  "category": "wellness",
+  "tags": [
+    "ayurveda",
+    "dosha-profiler",
+    "holistic-wellness",
+    "plant-nutrition",
+    "kapiva"
+  ],
+  "inputs": {
+    "primary_health_goal": {
+      "type": "string"
+    },
+    "prakriti_dosha": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "consultation_id": {
+      "type": "string"
+    },
+    "dominant_dosha": {
+      "type": "string"
+    },
+    "ayurvedic_herbal_formulation": {
+      "type": "array"
+    },
+    "ayush_certified_standard": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
